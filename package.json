@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "proxy": "https://learn-the-words.vercel.app/",
   "dependencies": {
     "@next/font": "13.1.2",
     "@types/axios": "^0.14.0",

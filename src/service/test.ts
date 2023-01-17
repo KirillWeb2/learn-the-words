@@ -2,7 +2,7 @@ import axios from 'axios'
 import { BodyCreateTestType, TestType } from '../types/test'
 
 export const testAPI = () => {
-  const uri = 'https://learn-the-words-kirillweb2.vercel.app/'
+  const uri = 'https://learn-the-words.vercel.app/'
   return {
     createTest: async (data: BodyCreateTestType) => {
       return await axios
